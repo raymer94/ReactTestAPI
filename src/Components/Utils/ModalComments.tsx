@@ -20,7 +20,6 @@ function ModalComments(props: any){
         e.preventDefault();   
         let newComment: any = [];
         setNewComentModal({...newComentModal, postId: props.postId});
-        alert(postId);
         newComment.push(newComentModal);
         props.dispatch(addNewComment([...props.additionalComments, ...newComment]));
         setModalShow(false);      

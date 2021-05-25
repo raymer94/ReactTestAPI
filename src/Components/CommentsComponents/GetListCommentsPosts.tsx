@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from 'react';
 import { useParams } from "react-router";
 import { CommentsModelsDTO } from "./Comments.models";
 import ListComments from "./ListCommentsPosts";
@@ -16,7 +16,7 @@ function GetListCommentsPosts(props: any){
        
        if(listComments.length <= 0) props.dispatch(fetchComments());         
        setListComments([...props.comments.filter((p: any)=>p.postId == postId), 
-        ...props.additionalComments]);
+        ...props.additionalComments.filter((p: any)=>p.postId == postId)]);
     
     },[props.comments, props.additionalComments])
  
