@@ -1,4 +1,3 @@
-import { CommentsModelsDTO } from "../../Components/CommentsComponents/Comments.models";
 import { PostState} from "../types/PostTypes";
 
 const initialState: PostState = {

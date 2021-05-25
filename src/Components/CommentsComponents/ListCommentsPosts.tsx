@@ -24,7 +24,6 @@ export default function ListCommentsPosts(props: ListCommentsProps){
                         </tr>
                     </thead>
                     <tbody>
-
                         {props.model?.map(val =>
                             <tr key={val.id}>
                                 <td>{val.postId}</td>
