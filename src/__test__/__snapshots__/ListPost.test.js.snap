@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+Array [
+  <h3>
+    Post's List
+  </h3>,
+  <table
+    className="table table-striped table-bordered table-hover"
+  >
+    <thead
+      className=""
+    >
+      <tr>
+        <th>
+          UserId
+        </th>
+        <th>
+          Id
+        </th>
+        <th>
+          Title
+        </th>
+        <th>
+          Body
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>,
+]
+`;
+
+exports[`List Snapshot test 1`] = `
+Array [
+  <h3>
+    Post's List
+  </h3>,
+  <table
+    className="table table-striped table-bordered table-hover"
+  >
+    <thead
+      className=""
+    >
+      <tr>
+        <th>
+          UserId
+        </th>
+        <th>
+          Id
+        </th>
+        <th>
+          Title
+        </th>
+        <th>
+          Body
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>,
+]
+`;

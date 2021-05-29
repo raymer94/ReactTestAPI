@@ -30,7 +30,7 @@ function ModalComments(props: any){
         <Modal
                 size="lg"
                 show={props.lgShow}
-                onHide={modalShow}
+                onHide={props.onHide}
                 aria-labelledby="example-modal-sizes-title-lg">
 
                 <Modal.Header closeButton>

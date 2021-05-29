@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+Array [
+  <h3>
+    List of comments
+  </h3>,
+  <a
+    className="btn btn-danger mb-2"
+    href="/"
+    onClick={[Function]}
+  >
+    Back
+  </a>,
+  <button
+    className="btn btn-primary mb-2 mx-sm-3"
+  >
+    Add new comment
+  </button>,
+  <table
+    className="table table-striped table-bordered table-hover"
+  >
+    <thead
+      className=""
+    >
+      <tr>
+        <th>
+          postId
+        </th>
+        <th>
+          id
+        </th>
+        <th>
+          name
+        </th>
+        <th>
+          email
+        </th>
+        <th>
+          body
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>,
+]
+`;
+
+exports[`ListComments Snapshot test 1`] = `
+Array [
+  <h3>
+    List of comments
+  </h3>,
+  <a
+    className="btn btn-danger mb-2"
+    href="/"
+    onClick={[Function]}
+  >
+    Back
+  </a>,
+  <button
+    className="btn btn-primary mb-2 mx-sm-3"
+  >
+    Add new comment
+  </button>,
+  <table
+    className="table table-striped table-bordered table-hover"
+  >
+    <thead
+      className=""
+    >
+      <tr>
+        <th>
+          postId
+        </th>
+        <th>
+          id
+        </th>
+        <th>
+          name
+        </th>
+        <th>
+          email
+        </th>
+        <th>
+          body
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>,
+]
+`;
